@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.IO Example</title>
+    <script src="https://cdn.socket.io/4.7.1/socket.io.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Socket.IO Client</h1>
+    <button onclick="sendMessage()">Send Message</button>
+
+    <script>
+       
+        const socket = io('http://localhost:3000');
+       
+        
+        $(document).ready(function() {
+            socket.on('connect', () => {
+                var socketId = socket.id;
+                console.log(socketId)
+               // url = "{{route('save-socket-id')}}";
+                if(socketId) {
+                   // Listen for custom events from the server
+                    socket.on('sendMessage', (data) => {
+                        console.log('Message from server:', data);
+                    });
+
+                    // Function to send a message to the server
+                    
+                }
+            });
+            
+        })
+        function sendMessage() {
+                        socket.emit('sendMessage', 'Hello from client!');
+                        console.log('Message sent');
+                    }
+    </script>
+   
+</body>
+</html>

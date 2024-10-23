@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.Kaku.kaku",
+    "sha256_cert_fingerprints":
+    ["D1:D3:A7:69:06:72:07:FF:27:92:32:47:A6:9E:97:8A:CA:CD:08:DF:49:DF:4E:1B:C9:4D:9C:14:6E:21:4B:7A"],
+  }
+}]

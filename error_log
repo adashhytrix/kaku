@@ -1,0 +1,15 @@
+[30-Aug-2024 11:27:31 UTC] PHP Warning:  require(/home/creden/api-kaku.jurysoft.in/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/creden/api-kaku.jurysoft.in/index.php on line 22
+[30-Aug-2024 11:27:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/creden/api-kaku.jurysoft.in/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/creden/api-kaku.jurysoft.in/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/creden/api-kaku.jurysoft.in/index.php on line 22
+[30-Aug-2024 11:27:32 UTC] PHP Warning:  require(/home/creden/api-kaku.jurysoft.in/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/creden/api-kaku.jurysoft.in/index.php on line 22
+[30-Aug-2024 11:27:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/creden/api-kaku.jurysoft.in/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/creden/api-kaku.jurysoft.in/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/creden/api-kaku.jurysoft.in/index.php on line 22
+[30-Aug-2024 11:41:11 UTC] PHP Warning:  require(/home/creden/api-kaku.jurysoft.in/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/creden/api-kaku.jurysoft.in/index.php on line 22
+[30-Aug-2024 11:41:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/creden/api-kaku.jurysoft.in/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/creden/api-kaku.jurysoft.in/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/creden/api-kaku.jurysoft.in/index.php on line 22

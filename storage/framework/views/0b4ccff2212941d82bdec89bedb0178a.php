@@ -1,0 +1,1 @@
+To help personalize content, tailor and measure adverts and provide a safer experience, we use cookies. By clicking on or navigating the site, you agree to allow us to collect information through cookies.<?php /**PATH C:\xampp\htdocs\api-kaku.jurysoft.in (2)\api-kaku.jurysoft.in\resources\views/includes/cookie-policy.blade.php ENDPATH**/ ?>
